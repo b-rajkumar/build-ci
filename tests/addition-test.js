@@ -8,6 +8,6 @@ describe("addition", () => {
   });
 
   it("should add two negative numbers", () => {
-    assert.strictEqual(add(-1, -2), 3);
+    assert.strictEqual(add(-1, -2), -3);
   });
 });

@@ -5,7 +5,7 @@
   "main": "todo.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node --test tests",
+    "test": "node --test --test-reporter spec tests",
     "lint": "eslint .",
     "dev": "node --watch server.js",
     "coverage": "npx nyc --all --reporter html --reporter text node --test",
